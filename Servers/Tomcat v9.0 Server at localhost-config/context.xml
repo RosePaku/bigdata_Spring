@@ -28,6 +28,16 @@
     -->
         <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" maxActive="50" maxWait="1000" name="jdbc/Oracle11g" password="tiger" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:orcl" username="scott"/>
     
-    
+    <Resource
+       auth = "Container"
+       driverClassName = "oracle.jdbc.driver.OracleDriver"
+       url = "jdbc:oracle:thin:@localhost:1521:orcl"
+       username = "scott"
+       password = "tiger"
+       name = "jdbc/Oracle11g"
+       type = "javax.sql.DataSource"
+       maxActive = "50"
+       maxWait = "1000"
+    />
     
 </Context>
